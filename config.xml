@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.crotus.auravalet"
+        versionCode = "10" 
+        version     = "2.0.2" >
+        <!-- versionCode is optional and Android only -->
+        <name>Aura Valet</name>
+        <description>Aura Valet</description>
+
+        <author href="http://crotustechnologies.com" email="info@crotus.net">Crotus Technologies</author>
+
+        <icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+        <icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+        <icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+        <icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+        <gap:splash src="resources/loading/Default.png" gap:platform="android" gap:density="ldpi" />
+        <gap:splash src="resources/loading/Default.png"  gap:platform="android" gap:density="mdpi" />
+        <gap:splash src="resources/loading/Default.png"  gap:platform="android" gap:density="hdpi" />
+        <gap:splash src="resources/loading/Default.png" gap:platform="android" gap:density="xhdpi" />
+
+        <preference name="orientation" value="default" />
+        <preference name="SplashScreen" value="screen" />
+        <preference name="SplashScreenDelay" value="2000" />
+        <preference name="ios-statusbarstyle" value="black-opaque" />
+
+    </widget>
